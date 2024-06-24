@@ -1,0 +1,93 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  width: 70%
+}
+
+.highlight {
+  color: midnightblue;
+}
+
+.card {
+  display: inline-block;
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.tile-image {
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin-right: 50px;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  clear: both;
+}
+
+@media (max-width: 680px) {
+  
+  body {
+    display: block;
+    clear: both;
+  }
+
+  .logo {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: px;
+  }
+  h1 {
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+  }
+
+  div {
+    text-align: justify;
+  }
+
+  .tile-image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card {
+    width: 100%; 
+  }
+
+  .left {
+    margin-bottom: 25px;
+  }
+
+  .right {
+    margin-bottom: 45px;
+  }
+
+  .card-title {
+    margin-top: 53%;
+  }
+
+
+ }
